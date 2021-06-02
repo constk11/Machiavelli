@@ -1,0 +1,46 @@
+.layout {
+    grid-template-columns: 1fr 2.5fr;
+    column-gap: 0;
+}
+
+.green {
+    width: 15%;
+    right: 0;
+    top: 0;    
+}
+
+.blue {
+    width: 850px;
+    right: 0px;
+    top: 1240px;
+}
+
+.cosmogony-and-cosmology, .astronomy {
+    margin-left: 100px;
+    max-width: 600px;
+}
+
+.astronomy {
+    margin-top: 40px;
+}
+
+.achievements {
+    max-width: 240px;
+    margin-top: -75px;
+}
+
+.second.photo {
+    margin-left: -25px;
+    margin-top: 50px;
+}
+
+.third.photo {
+    margin-right: -125px;
+    margin-top: 25px;
+}
+
+.geometry {
+    max-width: 500px;
+    margin-top: 40px;
+    margin-left: 175px;
+}

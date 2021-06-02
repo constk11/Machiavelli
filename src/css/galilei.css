@@ -1,0 +1,43 @@
+.layout {
+    column-gap: 20px;
+}
+
+h3 {
+    margin: 30px 0;
+}
+
+.blue {
+    width: 165px;
+    right: 0;
+    top: 0;
+}
+
+.first.photo {
+    width: 500px;
+}
+
+.postulate {
+    max-width: 565px;
+}
+
+.second.photo {
+    margin-top: -425px;        
+}
+
+.astronomy {
+    max-width: 560px;
+}
+
+.third.photo {
+    margin-top: 20px;
+}
+
+.planetary-exploration {
+    margin-top: -175px;
+}
+
+@media (max-width: 1400px) {
+    .blue {
+        width: 100px;
+    }
+}

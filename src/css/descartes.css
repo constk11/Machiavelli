@@ -1,0 +1,22 @@
+.layout {
+    column-gap: 20px;
+    row-gap: 30px;
+}
+
+.blue {    
+    top: 500px;
+    left: 0;
+    width: 100%;
+}
+
+.reasoning-about-method, .coordinate-system {
+    max-width: 480px;
+}
+
+.first.photo img {
+    margin-top: 20px;
+}
+
+.math {
+    width: 450px;
+}

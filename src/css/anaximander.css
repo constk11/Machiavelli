@@ -1,0 +1,38 @@
+.layout {
+    column-gap: 0;    
+}
+
+.ornament {
+    right: 0;
+}
+
+.blue {
+    width: 200px;
+    top: 0;
+}
+
+.green {
+    width: 90%;
+    top: 1250px;
+}
+
+.cosmology {
+    max-width: 500px;
+}
+
+.second.photo {
+    margin-top: 50px;
+}
+
+.scientific-views, .cosmogony {
+    max-width: 470px;
+    padding-left: 100px;
+}
+
+.scientific-views {
+    margin-top: 60px;
+}
+
+.cosmogony {
+    margin: 20px 0;
+}

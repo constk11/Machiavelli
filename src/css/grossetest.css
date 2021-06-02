@@ -1,0 +1,21 @@
+.layout {
+    column-gap: 100px;
+}
+
+.green {    
+    right: 0;
+    top: 380px;
+    width: 1400px;
+}
+
+.ideas {
+    max-width: 530px;
+}
+
+.first.photo {    
+    margin-top: -30px;
+}
+
+.second.photo {
+    margin-top: -125px;
+}

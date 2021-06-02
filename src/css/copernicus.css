@@ -1,0 +1,47 @@
+.layout {
+    grid-template-columns: 1fr 1.5fr;
+    column-gap: 125px;
+    row-gap: 40px;
+    padding-top: 25px;
+}
+
+.blue {    
+    width: 100%;
+    left: 0;
+    top: 75px;
+}
+
+.green {
+    width: 1050px;
+    right: 0;
+    top: 1100px;
+}
+
+.astronomy p:first-child {
+    max-width: 400px;
+    position: relative;
+}
+
+.astronomy p:first-child::before {
+    display: block;
+    position: absolute;
+    content: '';
+    width: 20px;
+    height: 170px;
+    top: -40px;
+    left: -40px;
+    background-color: var(--blue-color);
+}
+
+.heliocentric-system {
+    max-width: 750px;    
+}
+
+.second.photo {
+    margin-top: -125px;
+}
+
+.copernicus-model {
+    max-width: 350px;
+    margin-top: -25px;
+}

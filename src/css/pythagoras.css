@@ -1,0 +1,33 @@
+.layout {
+    column-gap: 150px;
+}
+
+.green {    
+    right: 0;
+    top: 0;
+    width: 300px;
+}
+
+.blue {
+    left: 0;
+    top: 650px;
+    width: 900px;        
+}
+
+.math {
+    max-width: 350px;
+}
+
+.first.photo {
+    margin-right: -125px;
+}
+
+.astronomy {
+    margin-top: 50px;
+    max-width: 450px;
+}
+
+.second.photo {
+    margin-left: -175px;
+    margin-top: 50px;
+}

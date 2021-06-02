@@ -1,0 +1,22 @@
+.layout {
+    column-gap: 100px;
+}
+
+.blue {
+    width: 100%;
+    left: 0;
+    top: 100px;
+}
+
+.space-and-time {
+    max-width: 450px;
+}
+
+.astronomy {
+    max-width: 450px;
+    margin-top: 50px;    
+}
+
+.second.photo {
+    margin-top: -450px;
+}

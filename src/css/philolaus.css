@@ -1,0 +1,15 @@
+.layout {
+    grid-template-columns: 1fr 1.75fr;
+    column-gap: 150px;
+}
+
+.world-system {
+    max-width: 455px;
+    margin-top: 25px;
+}
+
+.green {
+    right: 0;
+    bottom: 0;
+    width: 1100px;
+}

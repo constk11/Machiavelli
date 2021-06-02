@@ -1,0 +1,18 @@
+.layout {
+    row-gap: 75px;
+}
+
+.logic {
+    max-width: 350px;
+    margin-top: 50px;
+}
+
+.concept {
+    max-width: 500px;
+}
+
+.photo {
+    width: 200px;
+    justify-self: center;
+    align-self: center;
+}

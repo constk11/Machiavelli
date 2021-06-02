@@ -1,0 +1,29 @@
+.blue {
+    left: 0;
+    top: 600px;
+    width: 800px;
+}
+
+.green {
+    width: 818px;
+    right: 0;
+    top: 0;
+}
+
+.logic {
+    max-width: 470px;
+}
+
+.second.photo {
+    margin-top: -75px;
+}
+
+.achievements {
+    max-width: 460px;
+}
+
+@media (max-width: 1400px) {
+    .green {
+        right: -50px;
+    }
+}

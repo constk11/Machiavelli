@@ -1,1 +1,1 @@
-# Machiavelli
+# Information site about technical philosophers

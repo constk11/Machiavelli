@@ -1,0 +1,37 @@
+.layout {
+    grid-template-columns: 1fr 1.1fr;
+    column-gap: 100px;
+}
+
+.green {
+    width: 100%;
+    left: 0;
+    top: -15px;
+}
+
+.blue {
+    left: 0;
+    top: 1740px;
+    width: 750px;    
+}
+
+.first.photo {
+    margin-top: -30px;
+}
+
+.second.photo {
+    margin-top: -50px;
+}
+
+.optics {
+    margin-top: 50px;
+}
+
+.math h3 {
+    margin: 50px 0 25px 0;
+}
+
+.astronomy {
+    max-width: 525px;
+    margin-top: 50px;
+}

@@ -1,0 +1,260 @@
+:root {
+    --indent: 50px;
+    --font-size: 16px;
+    --small-indent: 20px;
+    --text-color: #fff;
+    --date-color: #BFBFBF;
+    --background-color: #343434;
+    --hover-color: #52F2A8;
+    --stroke-color: #0E34A0;
+    --logo-even-stroke-color: #343434;
+    --logo-odd-stroke-color: #fff;
+}
+
+/* Global Settings */
+
+body {
+    background-color: var(--background-color);
+    font-size: var(--font-size);
+    color: var(--text-color);
+    font-family: 'Montserrat', sans-serif;
+}
+
+h1, h3, h4, h5, h6 {
+    margin: 0;
+    color: var(--text-color);
+    font-family: 'Playfair Display', 'serif';
+}
+
+h2 {
+    margin: 0;
+    color: var(--text-color);
+    font-size: 28px;
+    font-weight: 400;
+    font-family: 'Montserrat', 'sans-serif';               
+}
+
+/* Container */
+
+.container {
+    max-width: 1200px;
+    margin: auto;
+    padding: 0 var(--indent);
+}
+
+/* Home page */
+
+.home-page {
+    .ornament {
+        position: absolute;
+    }
+
+    .blue {
+        left: -430px;
+        top: calc(100vh + 50px);
+        width: 850px;
+    }
+
+    .green {
+        left: 0;
+        top: 2200px;
+        width: 270px;
+    }
+
+    header {
+        height: 100vh;
+    }
+
+    svg.logo {
+        position: relative;
+        width: 95%;
+        height: 90%;
+        margin: 0 auto;        
+        text {            
+            font: 15em/1 PlayFair Display;
+        }
+        .text--line {
+            font-size: 0.5em;
+        }
+          
+        .text-copy {
+            fill: none;
+            stroke: #343434;
+            stroke-dasharray: 70% 7%;
+            stroke-width: 3px;
+            -webkit-animation: stroke-offset 9s infinite linear;
+                    animation: stroke-offset 9s infinite linear;
+          }
+          .text-copy:nth-child(1) {
+            stroke: var(--logo-odd-stroke-color);
+            stroke-dashoffset: 7%;
+          }
+          .text-copy:nth-child(2) {
+            stroke: var(--logo-even-stroke-color);
+            stroke-dashoffset: 14%;
+          }
+          .text-copy:nth-child(3) {
+            stroke: var(--logo-odd-stroke-color);
+            stroke-dashoffset: 21%;
+          }
+          .text-copy:nth-child(4) {
+            stroke: var(--logo-even-stroke-color);
+            stroke-dashoffset: 28%;
+          }
+          .text-copy:nth-child(5) {
+            stroke: var(--logo-odd-stroke-color);
+            stroke-dashoffset: 35%;
+          }
+          
+          @-webkit-keyframes stroke-offset {
+            50% {
+              stroke-dashoffset: 35%;
+              stroke-dasharray: 0 87.5%;
+            }
+          }
+          
+          @keyframes stroke-offset {
+            50% {
+              stroke-dashoffset: 35%;
+              stroke-dasharray: 0 87.5%;
+            }
+          }
+    }
+
+    main {
+        display: grid;
+        grid-template-columns: 550px 20px 550px;
+        justify-content: center;
+        margin-top: 50px;        
+        .dates {
+            display: flex;
+            flex-direction: column;
+            align-items: flex-end;
+            color: var(--date-color);                        
+            p {
+                margin-right: 20px;
+                font-size: 15px;
+            }
+            .first-period {
+                margin: 5px 5px 0 0;
+                font-size: 20px;
+            }                   
+            .year {
+                margin-top: 103px;
+                width: 100px;
+            }
+            .year625 {
+                margin-top: 67px;
+            }    
+            .year1175 {
+                margin-top: 75px;
+            }
+            .year1320, .year1571 {
+                margin-top: 78px;
+            }            
+            .second-period, .third-period, .fourth-period {
+                font-size: 20px;
+                margin-top: 80px;
+            }
+            .third-period, .fourth-period {
+                margin-top: 85px;
+            }                        
+        }
+        .timeline {  
+            margin-top: 75px;   
+            position: relative;
+            z-index: 2;                   
+            circle {
+                cursor: pointer;
+            }
+        }
+        .ages {        
+            margin-left: 100px;
+            .medieval {
+                margin-top: 980px;
+            }
+            .rebirth {
+                margin-top: 340px;
+            }
+            .new-time {
+                margin-top: 480px;
+            }
+        }
+
+        .philosophers {
+            position: absolute;
+            right: 0;
+            top: 870px;
+            width: 50%;
+            
+
+            >div {
+                width: 400px;
+                padding-left: 120px;
+                padding-top: 20px;  
+                background-color: var(--background-color);              
+
+                display: none;
+
+                &.hover {
+                    display: block;
+                    cursor: pointer;
+                }
+
+                h4 {
+                    font-size: 22px;
+                    font-weight: 400;
+                    &:hover{
+                        color: var(--hover-color);
+                    }
+                }
+
+                &.anaximander {
+                    margin-top: 150px;
+                }
+                &.pythagoras {
+                    margin-top: 280px;
+                }
+                &.leucippus {
+                    margin-top: 420px;
+                }
+                &.philolaus {
+                    margin-top: 550px;
+                }
+                &.aristotle {
+                    margin-top: 680px;
+                }
+                &.posidonius {
+                    margin-top: 830px;
+                    padding-bottom: 20px;
+                }
+                &.grossetest {
+                    margin-top: 1050px;
+                }
+                &.bacon {
+                    margin-top: 1190px;
+                    padding-bottom: 50px;
+                }
+                &.albert {
+                    margin-top: 1430px;
+                }
+                &.copernicus {
+                    margin-top: 1570px;
+                }
+                &.galilei {
+                    margin-top: 1700px;
+                    padding-right: 20px;
+                }
+                &.kepler {
+                    margin-top: 1940px;
+                }
+                &.descartes {
+                    margin-top: 2070px;
+                }
+                &.leibniz {
+                    margin-top: 2210px;
+                }
+            }            
+        }
+    }
+}

@@ -1,0 +1,33 @@
+.container {
+    max-width: 1300px;
+    padding: var(--small-indent);
+}
+
+.layout {
+    grid-template-columns: 1fr 1.5fr;
+    column-gap: 100px;
+}
+
+.blue {
+    left: 0;
+    top: 800px;
+    width: 100%;
+}
+
+h3 {
+    margin-bottom: 25px;
+}
+
+.physics {
+    max-width: 445px;
+}
+
+.astronomy {
+    margin-top: 25px;
+    max-width: 575px;
+}
+
+.second.photo {
+    margin-top: -25px;
+}
+

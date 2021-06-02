@@ -1,0 +1,55 @@
+:root {
+    --background-color: #343434;
+    --text-color: #fff;
+    --blue-color: #0E34A0;
+    --indent: 0 50px; 
+    --small-indent: 0 25px;
+    --text-size: 15px;
+    --text-line-height: 20px;
+    --text-family: 'Montserrat', sans-serif;
+    --header-size: 24px;
+    --header-family: 'Playfair Display', 'serif';
+}
+
+html, body {
+    margin: 0;
+    background-color: var(--background-color);
+    color: var(--text-color);
+    font-family: var(--text-family);
+    font-size: var(--text-size);    
+    line-height: var(--text-line-height);
+}
+
+h3 {
+    font-family: var(--header-family);
+    font-size: var(--header-size);
+    font-weight: 400;
+    margin: 0;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: var(--indent);
+}
+
+.layout {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    column-gap: 50px;
+    padding-top: 30px;
+}
+
+img {
+    position: relative;
+    width: 100%;
+}
+
+.photo {
+    position: relative;
+    z-index: 1;
+}
+
+.ornament {
+    position: absolute;
+}
