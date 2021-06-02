@@ -1,6 +1,7 @@
 .layout {
     grid-template-columns: 1fr 2.5fr;
     column-gap: 0;
+    position: relative;
 }
 
 .green {
@@ -12,7 +13,7 @@
 .blue {
     width: 850px;
     right: 0px;
-    top: 1240px;
+    bottom: 0;
 }
 
 .cosmogony-and-cosmology, .astronomy {
