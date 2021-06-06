@@ -53,7 +53,7 @@ h2 {
 
 .home-page .green {
   left: 0;
-  top: 2300px;
+  top: 2200px;
   width: 270px;
 }
 
@@ -211,90 +211,90 @@ h2 {
   margin-top: 480px;
 }
 
-.home-page main .philosophers {
-  position: absolute;
-  right: 0;
-  top: 870px;
-  width: 50%;
-}
-
-.home-page main .philosophers > div {
+.home-page main .philosopher {
+  position: relative;
+  z-index: 5;
   width: 400px;
+  margin-left: -105px;
   padding-left: 120px;
   padding-top: 20px;
   background-color: var(--background-color);
   display: none;
 }
 
-.home-page main .philosophers > div.hover {
+.home-page main .philosopher.hover {
   display: block;
   cursor: pointer;
 }
 
-.home-page main .philosophers > div h4 {
+.home-page main .philosopher h4 {
   font-size: 22px;
   font-weight: 400;
 }
 
-.home-page main .philosophers > div h4:hover {
+.home-page main .philosopher h4:hover {
   color: var(--hover-color);
 }
 
-.home-page main .philosophers > div.anaximander {
-  margin-top: 150px;
+.home-page main .philosopher.thales {
+  margin-top: 50px;
 }
 
-.home-page main .philosophers > div.pythagoras {
-  margin-top: 280px;
+.home-page main .philosopher.anaximander {
+  margin-top: 190px;
 }
 
-.home-page main .philosophers > div.leucippus {
-  margin-top: 420px;
+.home-page main .philosopher.pythagoras {
+  margin-top: 330px;
 }
 
-.home-page main .philosophers > div.philolaus {
-  margin-top: 550px;
+.home-page main .philosopher.leucippus {
+  margin-top: 470px;
 }
 
-.home-page main .philosophers > div.aristotle {
-  margin-top: 680px;
+.home-page main .philosopher.philolaus {
+  margin-top: 600px;
 }
 
-.home-page main .philosophers > div.posidonius {
-  margin-top: 830px;
+.home-page main .philosopher.aristotle {
+  margin-top: 730px;
+}
+
+.home-page main .philosopher.posidonius {
+  margin-top: 880px;
   padding-bottom: 20px;
 }
 
-.home-page main .philosophers > div.grossetest {
-  margin-top: 1050px;
+.home-page main .philosopher.grossetest {
+  margin-top: 90px;
 }
 
-.home-page main .philosophers > div.bacon {
-  margin-top: 1190px;
+.home-page main .philosopher.bacon {
+  margin-top: 230px;
   padding-bottom: 50px;
 }
 
-.home-page main .philosophers > div.albert {
-  margin-top: 1430px;
+.home-page main .philosopher.albert {
+  margin-top: 100px;
 }
 
-.home-page main .philosophers > div.copernicus {
-  margin-top: 1570px;
+.home-page main .philosopher.copernicus {
+  margin-top: 230px;
 }
 
-.home-page main .philosophers > div.galilei {
-  margin-top: 1700px;
+.home-page main .philosopher.galilei {
+  margin-top: 370px;
   padding-right: 20px;
 }
 
-.home-page main .philosophers > div.kepler {
-  margin-top: 1940px;
+.home-page main .philosopher.kepler {
+  margin-top: 90px;
 }
 
-.home-page main .philosophers > div.descartes {
-  margin-top: 2070px;
+.home-page main .philosopher.descartes {
+  margin-top: 220px;
 }
 
-.home-page main .philosophers > div.leibniz {
-  margin-top: 2210px;
+.home-page main .philosopher.leibniz {
+  margin-top: 360px;
 }
