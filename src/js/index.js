@@ -1,6 +1,6 @@
 $('g').hover(function () {
         let classname = $(this).attr('class');  
-        $('.philosophers .' + classname).fadeIn(300);        
+        $('.philosopher.' + classname).fadeIn(300);        
     }, function () {
         let classname = $(this).attr('class');        
         $('div.' + classname).hover(function () {
@@ -11,6 +11,6 @@ $('g').hover(function () {
                 $(this).removeClass('hover');
             }
         );        
-        $('.philosophers .' + classname).hide();
+        $('.philosopher.' + classname).hide();
     }
 );

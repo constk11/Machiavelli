@@ -180,16 +180,12 @@ h2 {
                 margin-top: 480px;
             }
         }
-
-        .philosophers {
-            position: absolute;
-            right: 0;
-            top: 870px;
-            width: 50%;
             
-
-            >div {
+            .philosopher {                
+                position: relative;
+                z-index: 5;
                 width: 400px;
+                margin-left: -105px;                
                 padding-left: 120px;
                 padding-top: 20px;  
                 background-color: var(--background-color);              
@@ -209,52 +205,55 @@ h2 {
                     }
                 }
 
+                &.thales {
+                    margin-top: 50px;
+                }
+
                 &.anaximander {
-                    margin-top: 150px;
+                    margin-top: 190px;
                 }
                 &.pythagoras {
-                    margin-top: 280px;
+                    margin-top: 330px;
                 }
                 &.leucippus {
-                    margin-top: 420px;
+                    margin-top: 470px;
                 }
                 &.philolaus {
-                    margin-top: 550px;
+                    margin-top: 600px;
                 }
                 &.aristotle {
-                    margin-top: 680px;
+                    margin-top: 730px;
                 }
                 &.posidonius {
-                    margin-top: 830px;
+                    margin-top: 880px;
                     padding-bottom: 20px;
                 }
                 &.grossetest {
-                    margin-top: 1050px;
+                    margin-top: 90px;
                 }
                 &.bacon {
-                    margin-top: 1190px;
+                    margin-top: 230px;
                     padding-bottom: 50px;
                 }
                 &.albert {
-                    margin-top: 1430px;
+                    margin-top: 100px;
                 }
                 &.copernicus {
-                    margin-top: 1570px;
+                    margin-top: 230px;
                 }
                 &.galilei {
-                    margin-top: 1700px;
+                    margin-top: 370px;
                     padding-right: 20px;
                 }
                 &.kepler {
-                    margin-top: 1940px;
+                    margin-top: 90px;
                 }
                 &.descartes {
-                    margin-top: 2070px;
+                    margin-top: 220px;
                 }
                 &.leibniz {
-                    margin-top: 2210px;
+                    margin-top: 360px;
                 }
-            }            
-        }
+            }                    
     }
 }
