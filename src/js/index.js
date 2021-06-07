@@ -7,8 +7,8 @@ $('g').hover(function () {
                 $(this).addClass('hover');          
                 $(this).show();       
                 $(this).click(function() {
-                        $(this.removeClass('hover'));
-                        $(this.hide());
+                        $(this).removeClass('hover');
+                        $(this).hide();
                     });
             }, function () {
                 $(this).hide();       
