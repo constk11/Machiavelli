@@ -176,13 +176,17 @@ h2 {
   margin-top: 78px;
 }
 
-.home-page main .dates .second-period, .home-page main .dates .third-period, .home-page main .dates .fourth-period {
+.home-page main .dates .second-period, .home-page main .dates .third-period, .home-page main .dates .fourth-period, .home-page main .dates .fifth-period {
   font-size: 20px;
   margin-top: 80px;
 }
 
 .home-page main .dates .third-period, .home-page main .dates .fourth-period {
   margin-top: 85px;
+}
+
+.home-page main .dates .year1920 {
+  margin-top: 72px;
 }
 
 .home-page main .timeline {
@@ -209,6 +213,10 @@ h2 {
 
 .home-page main .ages .new-time {
   margin-top: 480px;
+}
+
+.home-page main .ages .modern-time {
+  margin-top: 475px;
 }
 
 .home-page main .philosopher {
@@ -297,4 +305,13 @@ h2 {
 
 .home-page main .philosopher.leibniz {
   margin-top: 360px;
+}
+
+.home-page main .philosopher.artificial-intelligence {
+  margin-top: 220px;
+}
+
+.home-page main .philosopher.neo-positivism {
+  margin-top: 90px;
+  width: 500px;
 }

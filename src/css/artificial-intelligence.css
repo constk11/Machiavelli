@@ -1,0 +1,113 @@
+.layout {
+    grid-template-columns: 1fr 1fr;
+    column-gap: 50px;
+}
+
+.ornament {
+    right: 0;
+}
+
+.green1 {
+    top: 0;
+    width: 900px;
+}
+
+.blue1 {
+    width: 750px;
+    top: 1500px;
+}
+
+.green2 {
+    top: 3140px;
+    width: 840px;    
+}
+
+.blue2 {
+    width: 100%;
+    top: 4250px;
+
+}
+
+.definition h3 {
+    width: 340px;
+    line-height: 30px;
+}
+
+.definition p {
+    margin-top: 15px;    
+}
+
+.definition .machine-learning {
+    margin-top: 40px;
+}
+
+.first.photo {
+    /* width: 700px; */
+    margin-left: -30px;
+    width: 700px;
+}
+
+.second.photo {
+    margin-top: 30px;            
+    margin-right: -50px;
+}
+
+.history {
+    margin-top: -300px;
+    margin-left: 100px;
+    width: 450px;
+}
+
+.third.photo {
+    margin-top: -200px;    
+    margin-left: 20px;    
+}
+
+.creating-machines {
+    width: 450px;
+    margin-top: 20px;
+}
+
+.fourth.photo {
+    margin-top: -470px;
+    margin-left: -30px;
+    width: 750px;
+}
+
+.abilities {
+    margin-top: 10px;
+}
+
+.face-detection {
+    margin-top: 15px;    
+}
+
+.strong-and-weak {
+    width: 510px;
+}
+
+.strong-and-weak h3 {
+    width: 450px;
+    line-height: 28px;
+    margin-top: 30px;
+}
+
+.fifth.photo {
+    margin-top: 40px;
+    margin-right: -50px;
+    width: 700px;
+}
+
+.philosophy-problems-and-questions {
+    margin-top: 50px;
+}
+
+.philosophy-problems-and-questions h3 {
+    width: 400px;
+    line-height: 28px;    
+}
+
+.conclusion {
+    margin-top: -300px;
+    width: 600px;
+}
