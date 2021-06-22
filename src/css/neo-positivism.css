@@ -1,0 +1,16 @@
+.layout {
+    grid-template-columns: 1fr;
+    row-gap: 40px;
+}
+
+.blue-left {
+    width: 621px;
+    left: -130px;
+    top: 0;
+}
+
+.blue-right {
+    width: 182px;
+    right: 0;
+    top: 0;
+}
