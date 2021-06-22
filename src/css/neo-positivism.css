@@ -1,6 +1,14 @@
+body {
+    background: url('../img/neo-positivism/ornament-blue-left.png');
+    background-repeat: no-repeat;
+    background-position-x: left;
+    background-size: 621px 100%;    
+    height: 1832px;
+}
+
 .layout {
     grid-template-columns: 1fr;
-    row-gap: 40px;
+    row-gap: 40px;    
 }
 
 .blue-left {
