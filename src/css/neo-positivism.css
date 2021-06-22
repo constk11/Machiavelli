@@ -7,6 +7,7 @@
     width: 621px;
     left: -130px;
     top: 0;
+    z-index: -2;
 }
 
 .blue-right {
