@@ -240,7 +240,7 @@ h2 {
   font-weight: 400;
 }
 
-.home-page main .philosopher h4:hover, .home-page main .philosopher p:hover {
+.home-page main .philosopher h4:hover {
   color: var(--hover-color);
 }
 
